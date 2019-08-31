@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Elie Hymowitz</title>
+    <link>https://ehymowitz.github.io/post/</link>
+    <description>Recent content in Posts on Elie Hymowitz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://ehymowitz.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>https://ehymowitz.github.io/post/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ehymowitz.github.io/post/about/</guid>
+      <description>Hi! Thanks for visiting my website! This is where I get to write and post about things that I make and work on. I don&amp;rsquo;t generally talk about myself too much, but here goes - if you&amp;rsquo;re interested in learning about me this is the place for that. 
+When I was 18 I left my hometown of Seattle, Washington and spent a gap year living in Israel. After that I moved to Montreal to do an undergraduate degree in materials engineering at McGill University.</description>
+    </item>
+    
+    <item>
+      <title>Photos/Videos</title>
+      <link>https://ehymowitz.github.io/post/photovid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ehymowitz.github.io/post/photovid/</guid>
+      <description>I take pictures and make videos! Here are some of my favorite things I&amp;rsquo;ve gotten to make recently
+  Photos    Videos  </description>
+    </item>
+    
+    <item>
+      <title>Resume</title>
+      <link>https://ehymowitz.github.io/post/resume/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ehymowitz.github.io/post/resume/</guid>
+      <description>Education McGill University - Montreal, Quebec (Sept 2012 – May 2017) Major: Materials Engineering (Co-op)
+Engineering Experience Haply Robotics – Montreal, Quebec (January 2018 – Current) Content Coordinator - Business development lead, growing target markets for Haply products
+- Responsible for creating all promotional, technical, and educational content
+- Involves taking photos, footage, and any other media and editing it into final deliverables
+MacDonald Dettwiler &amp;amp; Associates - Longueille, Montreal (May 2017 - December 2018) Component Engineer - Managed tests and specs to ensure components on satellites do not fail</description>
+    </item>
+    
+    <item>
+      <title>Things</title>
+      <link>https://ehymowitz.github.io/post/things/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ehymowitz.github.io/post/things/</guid>
+      <description>This is the part of the website where I post some things I&amp;rsquo;ve made and some things I&amp;rsquo;ve been working on! Most of the details of how I&amp;rsquo;m building what I&amp;rsquo;m working on can be found on my GitHub page. But here you&amp;rsquo;ll see the end result or at least the work in progress!   Visualizations  I like using Java to make cool visualizations! Check out some of the ones I&amp;rsquo;ve made recently   Robots  I use Haply Robotics technology to work on a robot with wheels!</description>
+    </item>
+    
+  </channel>
+</rss>
