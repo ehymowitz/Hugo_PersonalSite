@@ -2089,6 +2089,12 @@
 				width: 100%;
 			}
 
+/* Photo */
+	.photo {
+		max-width: 100%;
+		height: auto;
+	}
+
 /* List */
 
 	ol {
@@ -2829,7 +2835,7 @@
 		opacity: 1.0 !important;
 	}
 
-/* XLarge */
+/* Large */
 
 	@media screen and (max-width: 1800px) {
 
