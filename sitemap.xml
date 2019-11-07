@@ -36,6 +36,10 @@
   </url>
   
   <url>
+    <loc>https://ehymowitz.github.io/post/experience/</loc>
+  </url>
+  
+  <url>
     <loc>https://ehymowitz.github.io/post/</loc>
     <priority>0</priority>
   </url>
@@ -43,10 +47,6 @@
   <url>
     <loc>https://ehymowitz.github.io/categories/resume/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ehymowitz.github.io/post/resume/</loc>
   </url>
   
   <url>
