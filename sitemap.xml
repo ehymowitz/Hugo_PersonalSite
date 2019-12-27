@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ehymowitz.github.io/post/experience/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ehymowitz.github.io/post/people/</loc>
     <priority>0</priority>
   </url>
@@ -33,15 +38,7 @@
   </url>
   
   <url>
-    <loc>https://ehymowitz.github.io/post/experience/</loc>
-  </url>
-  
-  <url>
     <loc>https://ehymowitz.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ehymowitz.github.io/categories/resume/</loc>
   </url>
   
   <url>

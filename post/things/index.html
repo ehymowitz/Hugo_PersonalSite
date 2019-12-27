@@ -56,6 +56,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			
 				<li><a href="https://ehymowitz.github.io/post/photo">Photography</a></li>
 			
+				<li><a href="https://ehymowitz.github.io/post/experience">Experience</a></li>
+			
 			</ul>
 		</nav>
 	
@@ -117,8 +119,10 @@ For example 300, 200, 300 would translate to a 300 ms vibration, 200 ms pause, t
 <script>
   $("#vForm").submit(function(event){  
     event.preventDefault();
-    var vibrate = "[" + $("#vInput").val() + "]";
-    Haptics.vibrate(100);
+    var vibrate = $("#vInput").val();
+    console.log(vibrate)
+    Haptics.vibrate(100); <!--Try inserting vibrate here, not sure why it hasn't been working -->
+    console.log("vibrated")
   });
 </script>
 
