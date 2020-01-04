@@ -115,6 +115,13 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
   <input type="submit" value="Click to Vibrate">
 </form>
 
+<p>Using this will allow you to create custom vibrational patterns, using the syntax below! Evenly indexed numbers are vibration durations, while oddly indexed numbers are pauses.</p>
+
+<form id="vmForm">
+  <input id="vmInput" type="text" placeholder="200, 200, 200, 200"><br>
+  <input type="submit" value="Click for Vibration Pattern">
+</form>
+
 <script>
   $("#vForm").submit(function(event){  
     event.preventDefault();
@@ -124,6 +131,24 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     }
     console.log(vibrate);
     Haptics.vibrate(vibrate);
+  });
+
+  $("#vmForm").submit(function(event){  
+    event.preventDefault();
+    var mvibrate = $("#vmInput").val();
+    var temp = new Array();
+    temp = mvibrate.split(",");
+    for (i in temp){
+      temp[i] = parseInt(temp[i]);
+    }
+    if (temp.length == 1){
+      temp[0] = 200;
+      temp[1] = 200;
+      temp[2] = 200;
+      temp[3] = 200;
+    }
+    console.log(temp);
+    Haptics.vibrate(temp);
   });
 </script>
 
