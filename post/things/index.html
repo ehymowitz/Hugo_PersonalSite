@@ -108,11 +108,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
   I&rsquo;m working on a way send haptics into your phone, using this website - here&rsquo;s what I have so far. For this I&rsquo;m using <a href="http://www.hapticsjs.org/">haptics.js</a>
   <script type="text/javascript" src="../haptics.js"></script></p>
 
-<!-- Type below a number or series of numbers separated by commas. The numbers will be interpreted as pulse, pause, ect.  
-For example 300, 200, 300 would translate to a 300 ms vibration, 200 ms pause, then a 300 ms vibration. -->
+<!-- Type below a number in milliseconds for how long you'd like your phone to vibrate. For example 300, would translate to a 300 ms vibration. -->
 
 <form id="vForm">
-  <!-- <input id="vInput" type="text"><br> -->
+  <input id="vInput" type="text" placeholder="300"><br>
   <input type="submit" value="Click to Vibrate">
 </form>
 
@@ -120,9 +119,11 @@ For example 300, 200, 300 would translate to a 300 ms vibration, 200 ms pause, t
   $("#vForm").submit(function(event){  
     event.preventDefault();
     var vibrate = $("#vInput").val();
+    if (vibrate == 0){
+      vibrate = 300;
+    }
     console.log(vibrate)
-    Haptics.vibrate(100); <!--Try inserting vibrate here, not sure why it hasn't been working -->
-    console.log("vibrated")
+    Haptics.vibrate(vibrate);
   });
 </script>
 
