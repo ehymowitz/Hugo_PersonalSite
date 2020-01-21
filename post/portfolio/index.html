@@ -7,7 +7,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 -->
 <html>
 	<head>
-		<title>Things &middot; Elie Hymowitz</title>
+		<title> &middot; Elie Hymowitz</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="author" content="Elie Hymowitz">
@@ -16,8 +16,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 		
 		<meta name="og:site_name" content="Elie Hymowitz">
-		<meta name="og:title" content="Things">
-		<meta name="og:url" content="https://ehymowitz.github.io/post/things/">
+		<meta name="og:title" content="">
+		<meta name="og:url" content="https://ehymowitz.github.io/post/portfolio/">
 		
 		<meta name="og:image" content="https://ehymowitz.github.io/images/avatar.png">
 		
@@ -68,77 +68,11 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<div id="main">
 			
 	<span>
-		<h1>Things</h1>
+		<h1></h1>
 	</span>
 
 	<p>
-	    <p>As mentioned in the caption of this website I make music and things! Most of the details of how I'm building what I'm working on can be found on my <a href="//github.com/ehymowitz">GitHub page</a>, but here are some of the projects I work on that are cool to see. <a href="https://www.robotshop.com/ca/fr/kit-developpement-haply.html">Plug for the tool I use for some of these, the Haplet</a></p>
-<hr>
-<h1>
-  Graphics
-</h1>
-  I like using Java to make cool visualizations! Here are few of the ones I've made more recently.
-<p>This one uses the haplet. Each ball has its own force which keeps it attached to the nearby balls. When you move haplet through the balls, you not only feel the weight of each ball - you also get an idea of the force keeping all the balls together. I thought it looked pretty cool!</p>
-  <video autoplay loop width="100%">
-    <source src="../MyVideos/Pond.webm" type="video/webm">
-  </video>
-<p>This is a pretty basic visualization, just a bunch of balls of rings expanding and contracting with different frequencies.</p>
-  <video autoplay loop width="100%">
-    <source src="../MyVideos/BallRing.webm" type="video/webm">
-  </video>
-<p>After making this visualization, I integrated it into the haplet to make it interactive. Moving the Haplet around changes parameters of the rings.</p>
-  <video autoplay loop width="100%">
-    <source src="../MyVideos/BallRingHaplet.webm" type="video/webm">
-  </video>
-<hr>
-<h1>
-  Haptics
-</h1>
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</head>
-  I've been exploring using HTML to send Haptics to your phone! - here's what I have so far. For this I'm using [haptics.js](http://www.hapticsjs.org/)
-  <script type="text/javascript" src="../haptics.js"></script>
-<!-- Type below a number in milliseconds for how long you'd like your phone to vibrate. For example 300, would translate to a 300 ms vibration. -->
-<form id="vForm">
-  <input id="vInput" type="text" placeholder="300"><br>
-  <input type="submit" value="Click to Vibrate">
-</form>
-<p>Using this will allow you to create custom vibrational patterns, using the syntax below! Evenly indexed numbers are vibration durations, while oddly indexed numbers are pauses.</p>
-<form id="vmForm">
-  <input id="vmInput" type="text" placeholder="200, 200, 200, 200"><br>
-  <input type="submit" value="Click for Vibration Pattern">
-</form>
-<script>
-  $("#vForm").submit(function(event){  
-    event.preventDefault();
-    var vibrate = $("#vInput").val();
-    if (vibrate == 0){
-      vibrate = 300;
-    }
-    console.log(vibrate);
-    Haptics.vibrate(vibrate);
-  });
-
-  $("#vmForm").submit(function(event){  
-    event.preventDefault();
-    var mvibrate = $("#vmInput").val();
-    var temp = new Array();
-    temp = mvibrate.split(",");
-    for (i in temp){
-      temp[i] = parseInt(temp[i]);
-    }
-    if (temp.length == 1){
-      temp[0] = 200;
-      temp[1] = 200;
-      temp[2] = 200;
-      temp[3] = 200;
-    }
-    console.log(temp);
-    Haptics.vibrate(temp);
-  });
-</script>
-
+	    
 	</p>
 
 
