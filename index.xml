@@ -16,16 +16,14 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ehymowitz.github.io/post/experience/</guid>
-      <description>Download link
-Elie Hymowitz
-(438) 825 - 9185 
-ehymowitz@gmail.com
+      <description>Download Link Elie Hymowitz
+(438) 825 - 9185  ehymowitz@gmail.com
 Work Experience
 Haply Robotics, Montreal, QC Jan 2018 –Present
 Business Development Coordinator
-   Outward business growth and networking lead
-  Haptic demo and marketing content manager
-  Web development and media generation
+   Project management and outward business growth lead
+  Product demo and user feedback capture
+  Web development and marketing media generation
    MDA Corporation, St. Anne de Bellevue, QC May 2017 – December 2018
 Component Engineer
    Responsible for reliability of satellite components on multiple projects</description>
@@ -37,22 +35,7 @@ Component Engineer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ehymowitz.github.io/post/people/</guid>
-      <description>Places People   People 
-Brendan
-
-Jess
-
-Casey
-
-Patrick
-
-Chanda
-
-Casper
-
-Janette
-
- Colin</description>
+      <description> Places People   People Brendan Jess Casey Patrick Chanda Casper Janette  Colin </description>
     </item>
     
     <item>
@@ -61,41 +44,27 @@ Janette
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ehymowitz.github.io/post/photo/</guid>
-      <description>Places People   Places 
-Belize
-
-Old Port
-
-Somewhere
-
-Art
-
-Osheaga
-
-St. Viateur
-
-Store
-Place Des Art</description>
+      <description> Places People   Places Belize Old Port Somewhere Art Osheaga St. Viateur Store Place Des Art </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://ehymowitz.github.io/post/video/</link>
+      <link>https://ehymowitz.github.io/post/portfolio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ehymowitz.github.io/post/video/</guid>
+      <guid>https://ehymowitz.github.io/post/portfolio/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>About Me</title>
-      <link>https://ehymowitz.github.io/post/about/</link>
+      <title></title>
+      <link>https://ehymowitz.github.io/post/transcriptions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://ehymowitz.github.io/post/about/</guid>
-      <description>Hi! Thanks for visiting my website! This is still VERY much a work in progress. 
-It is also where I get to write and post about things that I make and work on. So if you&amp;rsquo;re interested in learning about me, this is the place for that. 
-I&amp;rsquo;m originally from Seattle, Washington but I&amp;rsquo;ve been living in Montreal for the last 8 years (since September 2012). Before I came here, I spent a gap year living in Israel.</description>
+      <guid>https://ehymowitz.github.io/post/transcriptions/</guid>
+      <description>Transcriptions A few videos of my playing through these can be found on my instagram. Contact me if you have any questions!
+(All transcriptions made with MuseScore)
+Solos  Autumn Leaves - Chet Baker Solo  There Will Never Be Another You - Chet Baker Solo  Blue Bossa - Dexter Gordon Solo  All The Things You Are in C# - Charles Mingus Quintet   Partial Transcriptions  Lingus - Snarky Puppy (Michael League Part)  Spain - Chick Corea &amp;amp; Return to Forever (Stanley Clarke Part)  Funk The Fear - Esperanza Spalding (Verse and Chorus Bass)   Other  We Don&#39;t Care - Kanye West  Lost Woods (Ocarina of Time) - Koji Kondo  Mii Channel Theme - Kazumi Totaka   </description>
     </item>
     
     <item>
@@ -104,7 +73,8 @@ I&amp;rsquo;m originally from Seattle, Washington but I&amp;rsquo;ve been living
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ehymowitz.github.io/post/things/</guid>
-      <description>As mentioned in the caption of this website I make music and things! Most of the details of how I&amp;rsquo;m building what I&amp;rsquo;m working on can be found on my GitHub page, but here are some of the projects I work on that are cool to see. Plug for the tool I use for some of these, the Haplet   Graphics  I like using Java to make cool visualizations!</description>
+      <description>As mentioned in the caption of this website I make music and things! Most of the details of how I&#39;m building what I&#39;m working on can be found on my GitHub page, but here are some of the projects I work on that are cool to see. Plug for the tool I use for some of these, the Haplet
+  Graphics  I like using Java to make cool visualizations!</description>
     </item>
     
   </channel>

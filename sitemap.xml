@@ -18,19 +18,17 @@
   </url>
   
   <url>
-    <loc>https://ehymowitz.github.io/post/video/</loc>
+    <loc>https://ehymowitz.github.io/post/portfolio/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ehymowitz.github.io/post/about/</loc>
+    <loc>https://ehymowitz.github.io/post/transcriptions/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ehymowitz.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ehymowitz.github.io/categories/description/</loc>
   </url>
   
   <url>
