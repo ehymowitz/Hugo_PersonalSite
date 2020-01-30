@@ -16,8 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ehymowitz.github.io/post/things/</guid>
-      <description>As mentioned in the caption of this website I make music and things! Most of the details of how I&#39;m building what I&#39;m working on can be found on my GitHub page, but here are some of the projects I work on that are cool to see. Plug for the tool I use for some of these, the Haplet
-  Graphics  I like using Java to make cool visualizations!</description>
+      <description>As mentioned in the caption of this website I make music and things! Most of the details of how I&#39;m building what I&#39;m working on can be found on my GitHub page, but here are some of the projects I work on that are cool to see.
+  Interactive Graphics  I initially made this for use with the haplet, but I ported it over to javascript using P5.</description>
     </item>
     
   </channel>

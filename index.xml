@@ -62,8 +62,7 @@ Component Engineer
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ehymowitz.github.io/post/transcriptions/</guid>
-      <description>Transcriptions Contact me with any questions/ requests!
-Solos  Autumn Leaves - Chet Baker, Trumpet Solo  (Playthrough Link) There Will Never Be Another You - Chet Baker, Trumpet Solo  (Playthrough Link) Blue Bossa - Dexter Gordon, Sax Solo  (Playthrough Link) All The Things You Are in C# - Charles Mingus Quintet, Bass Solo (Playthrough Link)  Partial Transcriptions  Lingus - Snarky Puppy, Michael League Part  Spain - Chick Corea &amp;amp; Return to Forever, Stanley Clarke Part  Funk The Fear - Esperanza Spalding, Verse + Prechorus + Chorus Bass  (Playthrough Link) Psycho Killer - Talkings Heads, Verse + Chorus + Bridge Bass   Other  We Don&#39;t Care - Kanye West  Lost Woods (Ocarina of Time) - Koji Kondo  Mii Channel Theme - Kazumi Totaka    All transcriptions made with MuseScore  </description>
+      <description>Transcriptions Solos  Autumn Leaves - Chet Baker, Trumpet Solo  (Playthrough Link) There Will Never Be Another You - Chet Baker, Trumpet Solo  (Playthrough Link) Blue Bossa - Dexter Gordon, Sax Solo  (Playthrough Link) All The Things You Are in C# - Charles Mingus Quintet, Bass Solo (Playthrough Link)  Partial Transcriptions  Lingus - Snarky Puppy, Michael League Part  Spain - Chick Corea &amp;amp; Return to Forever, Stanley Clarke Part  Funk The Fear - Esperanza Spalding, Verse + Prechorus + Chorus Bass  (Playthrough Link) Psycho Killer - Talkings Heads, Verse + Chorus + Bridge Bass   Other  We Don&#39;t Care - Kanye West  Lost Woods (Ocarina of Time) - Koji Kondo  Mii Channel Theme - Kazumi Totaka    All transcriptions made with MuseScore  </description>
     </item>
     
     <item>
@@ -72,8 +71,8 @@ Solos  Autumn Leaves - Chet Baker, Trumpet Solo  (Playthrough Link) There Will N
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://ehymowitz.github.io/post/things/</guid>
-      <description>As mentioned in the caption of this website I make music and things! Most of the details of how I&#39;m building what I&#39;m working on can be found on my GitHub page, but here are some of the projects I work on that are cool to see. Plug for the tool I use for some of these, the Haplet
-  Graphics  I like using Java to make cool visualizations!</description>
+      <description>As mentioned in the caption of this website I make music and things! Most of the details of how I&#39;m building what I&#39;m working on can be found on my GitHub page, but here are some of the projects I work on that are cool to see.
+  Interactive Graphics  I initially made this for use with the haplet, but I ported it over to javascript using P5.</description>
     </item>
     
   </channel>

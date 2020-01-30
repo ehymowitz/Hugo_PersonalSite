@@ -72,32 +72,25 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	</span>
 
 	<p>
-	    <p>As mentioned in the caption of this website I make music and things! Most of the details of how I'm building what I'm working on can be found on my <a href="//github.com/ehymowitz">GitHub page</a>, but here are some of the projects I work on that are cool to see. <a href="https://www.robotshop.com/ca/fr/kit-developpement-haply.html">Plug for the tool I use for some of these, the Haplet</a></p>
+	    <head>
+  <script type="text/javascript" src="../haptics.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<p>As mentioned in the caption of this website I make music and things! Most of the details of how I'm building what I'm working on can be found on my <a href="//github.com/ehymowitz">GitHub page</a>, but here are some of the projects I work on that are cool to see.</p>
 <hr>
 <h1>
-  Graphics
+  Interactive Graphics
 </h1>
-  I like using Java to make cool visualizations! Here are few of the ones I've made more recently.
+<p>I initially made this for use with the <a href="https://www.robotshop.com/ca/fr/kit-developpement-haply.html">haplet</a>, but I ported it over to javascript using <a href="https://p5js.org/">P5.js</a>. Use the mouse to change the size and color of the ring!</p>
+  <iframe src="https://editor.p5js.org/ehymowitz/embed/_QPqDwi_" width="500" height="500"></iframe>
 <p>This one uses the haplet. Each ball has its own force which keeps it attached to the nearby balls. When you move haplet through the balls, you not only feel the weight of each ball - you also get an idea of the force keeping all the balls together. I thought it looked pretty cool!</p>
   <video autoplay loop width="100%">
-    <source src="../MyVideos/Pond.webm" type="video/webm">
-  </video>
-<p>This is a pretty basic visualization, just a bunch of balls of rings expanding and contracting with different frequencies.</p>
-  <video autoplay loop width="100%">
-    <source src="../MyVideos/BallRing.webm" type="video/webm">
-  </video>
-<p>After making this visualization, I integrated it into the haplet to make it interactive. Moving the Haplet around changes parameters of the rings.</p>
-  <video autoplay loop width="100%">
-    <source src="../MyVideos/BallRingHaplet.webm" type="video/webm">
-  </video>
-<hr>
+      <source src="../Videos/Pond.webm" type="video/webm">
+  </video></p>
+  <hr>
 <h1>
   Haptics
 </h1>
-<head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script type="text/javascript" src="../haptics.js"></script>
-</head>
 <p>I've been exploring using <a href="http://www.hapticsjs.org/">haptics.js</a> to send Haptics to your phone! - here's what I have so far.</p>
 <form id="vForm">
   <input id="vInput" type="text" placeholder="300"><br>
@@ -109,7 +102,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
   <input type="submit" value="Click for Vibration Pattern">
 </form>
 <script>
-  $("#vForm").submit(function(event){  
+  $("#vForm").submit(function(event){
     event.preventDefault();
     var vibrate = $("#vInput").val();
     if (vibrate == 0){
@@ -119,7 +112,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
     Haptics.vibrate(vibrate);
   });
 
-  $("#vmForm").submit(function(event){  
+  $("#vmForm").submit(function(event){
     event.preventDefault();
     var mvibrate = $("#vmInput").val();
     var temp = new Array();
