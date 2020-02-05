@@ -42,15 +42,15 @@
 }
 
 
-#Javasmall {
+.Javasmall {
   height: 0px;
 }
 
 @media screen and (max-width: 600px) {
-  #Javalarge {
+  .Javalarge {
     height: 0px;
   }
-  #Javasmall {
+  .Javasmall {
     height: 200px;
   }
 }
