@@ -42,15 +42,15 @@
 }
 
 
-#ballringSmall {
+#Javasmall {
   height: 0px;
 }
 
 @media screen and (max-width: 600px) {
-  #ballringLarge {
+  #Javalarge {
     height: 0px;
   }
-  #ballringSmall {
+  #Javasmall {
     height: 200px;
   }
 }
