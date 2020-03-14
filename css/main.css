@@ -36,15 +36,115 @@
 
 .pull-left {
   float: left;
-  }
+}
+
 .pull-right {
   float: right;
 }
 
+.demo {
+  height: 200px;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.demo_holder {
+  overflow: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  height: auto;
+  white-space: nowrap;
+  border: 3px groove ;
+}
+
+.filter_holder {
+  height: 400px;
+  flex: 15%;
+  overflow: auto;
+  margin-top: 10px;
+  padding: 7px;
+  white-space: nowrap;
+}
+
+.filter_button {
+  border: none;
+  outline: none;
+  margin: 10px 10px;
+  padding: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.tertiary_button {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#image_full {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.wrapper {
+  display: flex;
+}
+
+#image_full_column {
+  flex: 85%;
+  vertical-align: middle;
+}
+
+.buttons {
+  flex: 20%;
+  overflow: auto;
+  margin-top: 10px;
+  padding-top: 5px;
+  border-top: 1px groove ;
+}
 
 .Javasmall {
   height: 0px;
 }
+
+.slides{
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px groove ;
+  white-space: nowrap;
+  overflow: auto;
+
+}
+
+.slider{
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: steelblue;
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 600px) {
   .Javalarge {
@@ -52,6 +152,9 @@
   }
   .Javasmall {
     height: 200px;
+  }
+  #experimental{
+    visibility: hidden;
   }
 }
 

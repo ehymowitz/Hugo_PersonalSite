@@ -8,17 +8,17 @@
   </url>
   
   <url>
+    <loc>https://ehymowitz.github.io/post/experimental/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://ehymowitz.github.io/post/people/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ehymowitz.github.io/post/photo/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://ehymowitz.github.io/post/portfolio/</loc>
     <priority>0</priority>
   </url>
   
